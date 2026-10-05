@@ -1,0 +1,42 @@
+spaces:
+  - title: Complete 60 Days DevOps Course
+    path: /
+    content:
+      directory: .
+    sections:
+      - title: DevOps and Linux Basics
+        path: /devops-and-linux-basics
+        content:
+          directory: module-1_devops-and-linux-basic
+      - title: Docker Fundamentals
+        path: /docker-fundamentals
+        content:
+          directory: module-2_Docker
+      - title: CI/CD with Jenkins
+        path: /cicd-with-jenkins
+        content:
+          directory: module-3_Jenkins
+      - title: Configuration Management with Ansible
+        path: /configuration-management-with-ansible
+        content:
+          directory: module-4_Ansible
+      - title: Kubernetes Basics
+        path: /kubernetes-basics
+        content:
+          directory: module-5_kubernetes
+      - title: AWS Hands-on DevOps
+        path: /aws-hands-on-devops
+        content:
+          directory: module-6_AWS
+      - title: Cloud Infrastructure with Terraform
+        path: /cloud-infrastructure-with-terraform
+        content:
+          directory: module-7_Terraform
+      - title: Monitoring
+        path: /monitoring
+        content:
+          directory: module-8_Monitoring
+      - title: Python for DevOps
+        path: /python-for-devops
+        content:
+          directory: module-9_Python
