@@ -3,18 +3,19 @@ version: 1
 site:
   title: Complete 60 Days DevOps Course
   structure:
-    - type: space
-      key: space-overview
-      title: Course Overview
-      path: overview
-      default: true
-      content:
-        directory: .
     - type: section
-      key: section-course-modules
-      title: Course Modules
-      path: modules
+      key: section-course-content
+      title: Course Content
+      path: course-content
+      default: true
       children:
+        - type: space
+          key: space-overview
+          title: Course Overview
+          path: overview
+          default: true
+          content:
+            directory: .
         - type: space
           key: space-devops-linux-basics
           title: DevOps and Linux Basics
